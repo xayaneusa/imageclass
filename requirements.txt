@@ -3,4 +3,5 @@ ultralytics
 opencv-python
 numpy
 Pillow
-tensorflow
+tensorflow==2.12.0
+matplotlib
