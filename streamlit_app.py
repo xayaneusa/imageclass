@@ -9,11 +9,11 @@ import time # Import the time module for delays
 
 # --- Configuration for YOLOv8 Object Detection ---
 CLASS_NAMES_YOLO = ['Paper', 'Cardboard', 'Plastic', 'Metal', 'Trash', 'Glass']
-MODEL_PATH_YOLO = '/content/drive/MyDrive/Colab Notebooks/modelsave/best.pt'
+MODEL_PATH_YOLO = 'best.pt'
 PADDING_PIXELS = 20
 
 # --- Configuration for EfficientNetV2S Classification ---
-MODEL_PATH_CLASSIFICATION = '/content/drive/MyDrive/Colab Notebooks/modelsave/224EfficientNetV2S.keras'
+MODEL_PATH_CLASSIFICATION = '224MobilenetV2.keras'
 CLASS_NAMES_CLASSIFICATION = ['Cardboard', 'Glass', 'Metal', 'Paper', 'Plastic', 'Trash']
 
 # --- Load Models (with caching for Streamlit) ---
